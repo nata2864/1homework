@@ -72,7 +72,7 @@ body {
 
 }
 
-.footer {
+.middle {
   height: 556px;
   background-image: url(img/Rectangle\ 5.jpg);
   background-repeat: no-repeat;
@@ -122,6 +122,108 @@ body {
   color: #FFFFFF;
   padding-top: 236px;
   padding-left: 32px;
+}
+
+
+
+.footer {
+
+  height: 800px;
+  background: #000915;
+
+
+
+
+  &__gameplayer-box {
+
+    padding-top: 233.5px;
+
+  }
+
+  &__gameplayer {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    
+
+  }
+
+
+
+  &__content {
+    
+    grid-column: span 7;
+
+
+
+  }
+
+  &__gamepicture {
+
+
+    grid-column: span 5;
+    background-repeat: no-repeat;
+    
+    height: 333px;
+    background-image: url(img/video_game.svg);
+    
+   
+  
+  }
+
+
+
+
+
+
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 48.5px;
+
+
+  }
+
+  &__text {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 584px;
+
+  }
+
+  &__button {
+    width: 234.06px;
+    height: 48.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #9C0332;
+    border-radius: 30px;
+
+    &:hover {
+      background-color: #EB443F;
+
+    }
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

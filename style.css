@@ -66,7 +66,7 @@ body {
   background-color: #EB443F;
 }
 
-.footer {
+.middle {
   height: 556px;
   background-image: url(img/Rectangle\ 5.jpg);
   background-repeat: no-repeat;
@@ -116,7 +116,68 @@ body {
   padding-left: 32px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.footer {
+  height: 800px;
+  background: #000915;
+}
+.footer__gameplayer-box {
+  padding-top: 233.5px;
+}
+.footer__gameplayer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+}
+.footer__content {
+  grid-column: span 7;
+}
+.footer__gamepicture {
+  grid-column: span 5;
+  background-repeat: no-repeat;
+  height: 333px;
+  background-image: url(img/video_game.svg);
+}
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-top: 48.5px;
+}
+.footer__text {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  max-width: 584px;
+}
+.footer__button {
+  width: 234.06px;
+  height: 48.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #9C0332;
+  border-radius: 30px;
+}
+.footer__button:hover {
+  background-color: #EB443F;
+}
+
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -142,11 +203,49 @@ body {
     line-height: 22px;
     text-align: center;
   }
-  .footer {
+  .middle {
     height: 1221px;
   }
   .items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 127.87px;
+  }
+  .footer__gameplayer-box {
+    height: 653.61px;
+  }
+  .footer__gameplayer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    padding-top: 2.5px;
+  }
+  .footer__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .footer__text {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 4;
+  }
+  .footer__gamepicture {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-image: url(img/video_game-min\ \(1\).svg);
+    grid-column: span 4;
   }
 }/*# sourceMappingURL=style.css.map */
