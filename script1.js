@@ -1,8 +1,8 @@
+   
+   function month(){
 
+    let number= prompt ( `Введите номер месяца`);
 
-
-
-function month (number){
     if (number >= 1 && number <=2 || number === 12) {
           alert ('Зима');
       } else if (number >= 3 && number <= 5) {
@@ -12,6 +12,9 @@ function month (number){
       } else if (number >= 9 && number <= 11) {
           alert('Осень');
     } else { alert ('Вы ввели неправильный номер'); 
-  }}
+  }
 
-  month (12);
+
+   }
+   
+   
